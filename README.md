@@ -2,13 +2,13 @@
 
 ## In main dir
 
-### Install requirements
+> Install requirements
 
 ```
 pip install -r requirements.txt
 ```
 
-### Run python file
+> Run python file
 
 ```
 python src/main.py
