@@ -8,7 +8,7 @@
 pip install -r requirements.txt
 ```
 
-### Run python programm
+### Run python file
 
 ```
 python src/main.py
