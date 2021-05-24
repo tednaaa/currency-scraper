@@ -1,12 +1,10 @@
 from selenium import webdriver
-from time import sleep
-import json
-from infinite_scroll import infinite_scroll
-from scrap_bitcoin_and_save_in_file import scrap_bitcoin_and_save_in_file
+from utils.infinite_scroll import infinite_scroll
+from utils.scrap_bitcoin_and_save_in_file import scrap_bitcoin_and_save_in_file
 
 
 def main():
-    driver = webdriver.Chrome('./drivers/chromeDriverWindows')
+    driver = webdriver.Chrome('./drivers/chromedriver')
 
     URL = 'https://exmo.me'
     driver.get(URL)
