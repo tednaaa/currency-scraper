@@ -1,22 +1,15 @@
-from utils.open_json_and_save_dict import open_json_and_save_dict
+from utils.save_dict_in_json import save_dict_in_json
 from utils.get_store import get_store
 
 
-def scrap_bitcoin_and_save_in_file(driver):
+def get_bitcoin_info(driver):
     currency_names = driver.find_elements_by_xpath(
         '//h4[@class="currencyNameTextindex___3UaMu"]')
     prices = driver.find_elements_by_xpath(
         '//div[@class="lastPriceindex___cmcjB"]/div[1]')
-    prices_usd = driver.find_elements_by_xpath(
+    prices_in_usd = driver.find_elements_by_xpath(
         '//div[@class="lastPriceindex___cmcjB"]/div[2]')
     prices_changes_percent = driver.find_elements_by_xpath(
         '//div[@class="changeFor24hindex___27COs"]')
 
-    store = get_store(
-        currency_names,
-        prices,
-        prices_usd,
-        prices_changes_percent
-    )
-
-    open_json_and_save_dict('db', store)
+    return [currency_names, prices, prices_in_usd, prices_changes_percent]

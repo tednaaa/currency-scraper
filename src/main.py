@@ -1,6 +1,8 @@
 from selenium import webdriver
 from utils.infinite_scroll import infinite_scroll
-from utils.scrap_bitcoin_and_save_in_file import scrap_bitcoin_and_save_in_file
+from utils.get_bitcoin_info import get_bitcoin_info
+from utils.save_dict_in_json import save_dict_in_json
+from utils.get_store import get_store
 
 
 def main():
@@ -10,7 +12,11 @@ def main():
     driver.get(URL)
 
     infinite_scroll(driver)
-    scrap_bitcoin_and_save_in_file(driver)
+
+    bitcoin_info = get_bitcoin_info(driver)
+    store = get_store(*bitcoin_info)
+
+    save_dict_in_json('db', store)
 
     driver.quit()
 
