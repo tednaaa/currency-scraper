@@ -1,5 +1,25 @@
 # Project init
 
+> Create virtual enviroment
+
+```
+virtualenv venv
+```
+
+> Activate the virtual environment
+
+`For bash`
+
+```
+source venv/bin/activate
+```
+
+`For cmd`
+
+```
+venv\Scripts\activate
+```
+
 > Install requirements
 
 ```

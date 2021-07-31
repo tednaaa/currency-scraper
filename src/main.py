@@ -14,9 +14,10 @@ def main():
     infinite_scroll(driver)
 
     bitcoin_info = get_bitcoin_info(driver)
+
     store = get_store(*bitcoin_info)
 
-    save_dict_in_json('db', store)
+    save_dict_in_json('./src/data/db', store)
 
     driver.quit()
 
