@@ -26,6 +26,12 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+> Freeze packages and put into requirements.txt
+
+```
+pip freeze > requirements.txt
+```
+
 > Run python file
 
 ```
