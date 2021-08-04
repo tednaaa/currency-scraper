@@ -26,14 +26,14 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-> Freeze packages and put into requirements.txt
-
-```
-pip freeze > requirements.txt
-```
-
 > Run python file
 
 ```
 python src/main.py
+```
+
+> Freeze packages and put into requirements.txt after adding new package in project
+
+```
+pip freeze > requirements.txt
 ```
