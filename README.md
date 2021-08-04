@@ -35,5 +35,5 @@ python src/main.py
 > Freeze packages and put into requirements.txt after adding new package in project
 
 ```
-pip freeze > requirements.txt
+pip freeze -l > requirements.txt
 ```
