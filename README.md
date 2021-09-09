@@ -1,39 +1,25 @@
 # Project init
 
+### Requirements
+
+- Python installed on your computer
+- pipenv package
+- virtualenv package
+
 > Create virtual enviroment
 
 ```
-virtualenv venv
+virtualenv .venv
 ```
 
-> Activate the virtual environment
-
-`For bash`
+> Install packages
 
 ```
-source venv/bin/activate
-```
-
-`For cmd`
-
-```
-venv\Scripts\activate
-```
-
-> Install requirements
-
-```
-pip install -r requirements.txt
+pipenv install --ignore-pipfile
 ```
 
 > Run python file
 
 ```
-python src/main.py
-```
-
-> Freeze packages and put into requirements.txt after adding new package in project
-
-```
-pip freeze -l > requirements.txt
+pipenv run start
 ```
