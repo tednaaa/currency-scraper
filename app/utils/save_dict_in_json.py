@@ -1,7 +1,6 @@
 import json
 from pathlib import Path
 from config import SAVE_DATA_DIRECTORY_PATH, BITCOIN_CURRENCY_FILE_NAME
-# bitcoin-currency.json
 
 
 def save_dict_in_json(save_data):
