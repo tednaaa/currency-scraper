@@ -6,6 +6,12 @@
 - pipenv package
 - virtualenv package
 
+> Create .env and fill
+
+```
+cp .env.example .env
+```
+
 > Create virtual enviroment
 
 ```
