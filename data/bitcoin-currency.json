@@ -1,1 +1,312 @@
-[]
+[
+  {
+    "name": "BTC/USD",
+    "price": "46300.47 ≈ $46300.47",
+    "changes_percent": "-1.79%"
+  },
+  {
+    "name": "BTC/EUR",
+    "price": "38678.13 ≈ $46293.83",
+    "changes_percent": "-1.83%"
+  },
+  {
+    "name": "BTC/GBP",
+    "price": "33009.96 ≈ $46348.97",
+    "changes_percent": "-1.96%"
+  },
+  {
+    "name": "BTC/UAH",
+    "price": "1274375.55 ≈ $46500.27",
+    "changes_percent": "-1.48%"
+  },
+  {
+    "name": "BTC/USDT",
+    "price": "45679.42 ≈ $46319.83",
+    "changes_percent": "-1.95%"
+  },
+  {
+    "name": "ADA/BTC",
+    "price": "0.0000526 ≈ $2.43",
+    "changes_percent": "-2.95%"
+  },
+  {
+    "name": "ALGO/BTC",
+    "price": "0.00004302 ≈ $1.99",
+    "changes_percent": "-17.03%"
+  },
+  {
+    "name": "ATOM/BTC",
+    "price": "0.00059 ≈ $27.3",
+    "changes_percent": "+3.67%"
+  },
+  {
+    "name": "BCH/BTC",
+    "price": "0.01394153 ≈ $645.52",
+    "changes_percent": "-2.01%"
+  },
+  {
+    "name": "BTC/RUB",
+    "price": "3316628.04 ≈ $46713.02",
+    "changes_percent": "-1.67%"
+  },
+  {
+    "name": "BTC/PLN",
+    "price": "179350 ≈ $48883.88",
+    "changes_percent": "+1.91%"
+  },
+  {
+    "name": "BTC/KZT",
+    "price": "19864460 ≈ $53755.01",
+    "changes_percent": "+0.72%"
+  },
+  {
+    "name": "BTCV/BTC",
+    "price": "0.00088215 ≈ $40.82",
+    "changes_percent": "0%"
+  },
+  {
+    "name": "BTG/BTC",
+    "price": "0.00144858 ≈ $67.09",
+    "changes_percent": "-1.49%"
+  },
+  {
+    "name": "BTT/BTC",
+    "price": "0.00000008 ≈ $0.003",
+    "changes_percent": "-11.11%"
+  },
+  {
+    "name": "CHZ/BTC",
+    "price": "0.00000728 ≈ $0.33",
+    "changes_percent": "-1.62%"
+  },
+  {
+    "name": "CRON/BTC",
+    "price": "0.00005734 ≈ $2.65",
+    "changes_percent": "+1.68%"
+  },
+  {
+    "name": "DAI/BTC",
+    "price": "0.00002201 ≈ $1.02",
+    "changes_percent": "+3.42%"
+  },
+  {
+    "name": "DASH/BTC",
+    "price": "0.00425087 ≈ $196.55",
+    "changes_percent": "-1.25%"
+  },
+  {
+    "name": "DCR/BTC",
+    "price": "0.00323752 ≈ $149.04",
+    "changes_percent": "+1.27%"
+  },
+  {
+    "name": "DOGE/BTC",
+    "price": "0.00000534 ≈ $0.24",
+    "changes_percent": "-1.65%"
+  },
+  {
+    "name": "DOT/BTC",
+    "price": "0.00064358 ≈ $29.78",
+    "changes_percent": "+6.44%"
+  },
+  {
+    "name": "EOS/BTC",
+    "price": "0.00010171 ≈ $4.7",
+    "changes_percent": "-0.90%"
+  },
+  {
+    "name": "ETC/BTC",
+    "price": "0.00125152 ≈ $57.94",
+    "changes_percent": "-0.01%"
+  },
+  {
+    "name": "ETH/BTC",
+    "price": "0.07261 ≈ $3362.97",
+    "changes_percent": "-2.28%"
+  },
+  {
+    "name": "EXM/BTC",
+    "price": "0.00000149 ≈ $0.06",
+    "changes_percent": "+0.67%"
+  },
+  {
+    "name": "GAS/BTC",
+    "price": "0.00020811 ≈ $9.61",
+    "changes_percent": "-3.54%"
+  },
+  {
+    "name": "GNY/BTC",
+    "price": "0.00000806 ≈ $0.37",
+    "changes_percent": "+3.73%"
+  },
+  {
+    "name": "GUSD/BTC",
+    "price": "0.00002168 ≈ $1",
+    "changes_percent": "+2.32%"
+  },
+  {
+    "name": "IQN/BTC",
+    "price": "0.0000391 ≈ $1.8",
+    "changes_percent": "-3.69%"
+  },
+  {
+    "name": "HAI/BTC",
+    "price": "0.00000175 ≈ $0.08",
+    "changes_percent": "-14.21%"
+  },
+  {
+    "name": "HP/BTC",
+    "price": "0.00000003 ≈ $0.001",
+    "changes_percent": "0%"
+  },
+  {
+    "name": "HB/BTC",
+    "price": "0.00000008 ≈ $0.003",
+    "changes_percent": "-11.11%"
+  },
+  {
+    "name": "LINK/BTC",
+    "price": "0.00067 ≈ $31",
+    "changes_percent": "+7.84%"
+  },
+  {
+    "name": "LTC/BTC",
+    "price": "0.00386625 ≈ $178.97",
+    "changes_percent": "-1.07%"
+  },
+  {
+    "name": "MKR/BTC",
+    "price": "0.06209235 ≈ $2858.1",
+    "changes_percent": "-2.79%"
+  },
+  {
+    "name": "MNC/BTC",
+    "price": "0.00000006 ≈ $0.002",
+    "changes_percent": "+20.00%"
+  },
+  {
+    "name": "NEO/BTC",
+    "price": "0.00107248 ≈ $49.62",
+    "changes_percent": "-0.36%"
+  },
+  {
+    "name": "OMG/BTC",
+    "price": "0.0001809 ≈ $8.34",
+    "changes_percent": "-3.92%"
+  },
+  {
+    "name": "ONE/BTC",
+    "price": "0.00000373 ≈ $0.17",
+    "changes_percent": "-9.90%"
+  },
+  {
+    "name": "ONG/BTC",
+    "price": "0.00002549 ≈ $1.17",
+    "changes_percent": "-1.65%"
+  },
+  {
+    "name": "ONT/BTC",
+    "price": "0.00002089 ≈ $0.96",
+    "changes_percent": "-2.74%"
+  },
+  {
+    "name": "PRQ/BTC",
+    "price": "0.00001498 ≈ $0.69",
+    "changes_percent": "-11.67%"
+  },
+  {
+    "name": "QTUM/BTC",
+    "price": "0.00028353 ≈ $13.07",
+    "changes_percent": "-0.20%"
+  },
+  {
+    "name": "ROOBEE/BTC",
+    "price": "0.00000009 ≈ $0.004",
+    "changes_percent": "0%"
+  },
+  {
+    "name": "SMART/BTC",
+    "price": "0.00000013 ≈ $0.006",
+    "changes_percent": "0%"
+  },
+  {
+    "name": "TONCOIN/BTC",
+    "price": "0.00001898 ≈ $0.87",
+    "changes_percent": "+5.26%"
+  },
+  {
+    "name": "TRX/BTC",
+    "price": "0.00000198 ≈ $0.09",
+    "changes_percent": "+0.50%"
+  },
+  {
+    "name": "UNI/BTC",
+    "price": "0.00049605 ≈ $22.95",
+    "changes_percent": "-2.28%"
+  },
+  {
+    "name": "USDC/BTC",
+    "price": "0.0000218 ≈ $1.01",
+    "changes_percent": "+2.09%"
+  },
+  {
+    "name": "VITAE/BTC",
+    "price": "0.00000775 ≈ $0.35",
+    "changes_percent": "0%"
+  },
+  {
+    "name": "VLX/BTC",
+    "price": "0.00000332 ≈ $0.15",
+    "changes_percent": "-1.19%"
+  },
+  {
+    "name": "WAVES/BTC",
+    "price": "0.00065904 ≈ $30.54",
+    "changes_percent": "-3.20%"
+  },
+  {
+    "name": "WXT/BTC",
+    "price": "0.00000016 ≈ $0.007",
+    "changes_percent": "-5.88%"
+  },
+  {
+    "name": "XEM/BTC",
+    "price": "0.00000397 ≈ $0.18",
+    "changes_percent": "-2.22%"
+  },
+  {
+    "name": "XLM/BTC",
+    "price": "0.00000708 ≈ $0.32",
+    "changes_percent": "-0.84%"
+  },
+  {
+    "name": "XRP/BTC",
+    "price": "0.00002353 ≈ $1.09",
+    "changes_percent": "+0.21%"
+  },
+  {
+    "name": "XTZ/BTC",
+    "price": "0.0001457 ≈ $6.74",
+    "changes_percent": "+29.17%"
+  },
+  {
+    "name": "YFI/BTC",
+    "price": "0.75 ≈ $34706.82",
+    "changes_percent": "-0.02%"
+  },
+  {
+    "name": "ZEC/BTC",
+    "price": "0.00283458 ≈ $131.17",
+    "changes_percent": "-4.32%"
+  },
+  {
+    "name": "ZRX/BTC",
+    "price": "0.00002246 ≈ $1.04",
+    "changes_percent": "+0.17%"
+  },
+  {
+    "name": "ZAG/BTC",
+    "price": "0.00001556 ≈ $0.72",
+    "changes_percent": "-0.06%"
+  }
+]
