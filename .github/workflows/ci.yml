@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2.2.2
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          cp .env.example .env
+          virtualenv .venv
+          pipenv install --ignore-pipfile
+          pipenv run start
