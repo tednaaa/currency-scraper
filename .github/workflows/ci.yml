@@ -26,4 +26,4 @@ jobs:
           pip install pipenv
           virtualenv .venv
           pipenv install --ignore-pipfile
-          pipenv run start
+          sudo pipenv run start
