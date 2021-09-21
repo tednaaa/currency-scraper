@@ -11,9 +11,6 @@ on:
 jobs:
   setup:
     runs-on: ubuntu-latest
-    
-    env:
-      CHROME_DRIVER: chrome-linux
 
     steps:
       - uses: actions/checkout@v2
@@ -23,6 +20,7 @@ jobs:
 
       - name: Copy env vars, create enviroment, and run program
         run: |
+          echo "{CHROME_DRIVER}={chrome-linux}" >> $GITHUB_ENV
           cp .env.example .env
           pip install virtualenv
           pip install pipenv
