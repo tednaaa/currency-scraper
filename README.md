@@ -15,7 +15,7 @@ cp .env.example .env
 > Create virtual enviroment
 
 ```
-$ virtualenv .venv
+$virtualenv .venv
 ```
 
 > Install packages
