@@ -11,6 +11,9 @@ on:
 jobs:
   setup:
     runs-on: ubuntu-latest
+    
+    env:
+      CHROME_DRIVER: chrome-linux
 
     steps:
       - uses: actions/checkout@v2
