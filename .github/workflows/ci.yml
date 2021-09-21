@@ -20,8 +20,8 @@ jobs:
 
       - name: Copy env vars, create enviroment, and run program
         run: |
-          echo "{CHROME_DRIVER}={chrome-linux}" >> $GITHUB_ENV
           cp .env.example .env
+          echo "{CHROME_DRIVER}={chrome-linux}" >> $GITHUB_ENV
           pip install virtualenv
           pip install pipenv
           virtualenv .venv
