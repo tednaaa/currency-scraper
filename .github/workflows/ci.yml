@@ -17,6 +17,9 @@ jobs:
 
       - name: Setup Python
         uses: actions/setup-python@v2.2.2
+      
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
 
       - name: Copy env vars, create enviroment, and run program
         run: |
