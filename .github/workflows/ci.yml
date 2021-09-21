@@ -20,10 +20,11 @@ jobs:
 
       - name: Copy env vars, create enviroment, and run program
         run: |
+          chmod 755 drivers/chrome-linux
           cp .env.example .env
           sed -i 's/CHROME_DRIVER=chrome-windows/CHROME_DRIVER=chrome-linux/' .env
           pip install virtualenv
-          sudo pip install pipenv
+          pip install pipenv
           virtualenv .venv
           pipenv install --ignore-pipfile
-          sudo pipenv run start
+          pipenv run start
